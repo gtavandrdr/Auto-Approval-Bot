@@ -6,14 +6,14 @@
 from os import path, getenv
 
 class Config:
-    API_ID = int(getenv("API_ID", "25588319"))
-    API_HASH = getenv("API_HASH", "5972c23e4a53fb0f92d8bec8942833c0")
+    API_ID = int(getenv("API_ID", "7827847503"))
+    API_HASH = getenv("API_HASH", "edf47672dc12ca24509ed2e8b247c726")
     BOT_TOKEN = getenv("BOT_TOKEN", "7827847503:AAGCDMvqFdtXonXcu4Lh4OZqqI2XGZykXc4")
     # Your Force Subscribe Channel Id Below 
-    CHID = int(getenv("CHID", "")) # Make Bot Admin In This Channel
+    CHID = int(getenv("CHID", "-1002322725805")) # Make Bot Admin In This Channel
     # Admin Or Owner Id Below
-    SUDO = list(map(int, getenv("SUDO", "1010979545").split()))
-    MONGO_URI = getenv("MONGO_URI", "")
+    SUDO = list(map(int, getenv("SUDO", "6016330931").split()))
+    MONGO_URI = getenv("MONGO_URI", "mongodb+srv://akhashalderssss:WdiXao3jkdlVB1Xn@cluster0.sfo2z.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     
 cfg = Config()
 
